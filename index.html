@@ -975,14 +975,17 @@ color:#66C33D;
       return base + "?text=" + encodeURIComponent(message);
     }
 
-    const quickMsg =
-      "Olá! Quero um orçamento com a SparkX.\n\n" +
-      "Arquivo/peça: \n" +
-      "Quantidade: \n" +
-      "Material: \n" +
-      "Cidade: \n" +
-      "Prazo desejado: \n" +
-      "Observações:";
+const quickMsg =
+  "Olá! Quero um orçamento com a SparkX.\n\n" +
+  "Fotos da peça ou projeto:\n" +
+  "(anexe fotos de vários ângulos)\n\n" +
+  "Arquivo 3D (se tiver):\n" +
+  "Função da peça:\n" +
+  "(para que ela serve / onde será usada)\n" +
+  "Quantidade:\n" +
+  "Cidade / Estado:\n" +
+  "Prazo desejado:\n" +
+  "Observações:";
 
     document.getElementById("btnTopWa").href = waLink(quickMsg);
     document.getElementById("btnHeroWa").href = waLink(quickMsg);
@@ -1034,3 +1037,4 @@ color:#66C33D;
 
 </body>
 </html>
+
